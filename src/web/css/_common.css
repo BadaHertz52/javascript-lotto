@@ -1,10 +1,10 @@
 button {
-  background-color: var(--lotto-primary-color);
-  color: var(--lotto-greyScale1-color);
-  padding: 6px 6px 6px 8px;
+  box-sizing: border-box;
   border: none;
   border-radius: 4px;
-  box-sizing: border-box;
+  background-color: var(--lotto-primary-color);
+  padding: 6px 6px 6px 8px;
+  color: var(--lotto-greyScale1-color);
 }
 
 button:disabled {
@@ -13,8 +13,8 @@ button:disabled {
 
 input {
   box-sizing: border-box;
-  border-radius: 4px;
   border: 1px solid var(--lotto-greyScale3-color);
+  border-radius: 4px;
 }
 
 form label {
@@ -25,12 +25,12 @@ form label {
 }
 
 .message-error {
-  height: 20px;
   margin: 5px 0;
-  font-size: 12px;
-  font-weight: var(lotto-caption-fontWeight);
-  line-height: var(lotto-caption-lineHeight);
+  height: 20px;
   color: rgb(236, 84, 84);
+  font-weight: var(lotto-caption-fontWeight);
+  font-size: 12px;
+  line-height: var(lotto-caption-lineHeight);
 }
 
 .shadow {

@@ -8,5 +8,6 @@
   "bracketSpacing": true,
   "arrowParens": "always",
   "endOfLine": "crlf",
-  "prefer-const": true
+  "prefer-const": true,
+  "plugins": ["prettier-plugin-css-order"]
 }

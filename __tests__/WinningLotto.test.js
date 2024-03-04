@@ -12,7 +12,7 @@ describe('WinningLotto 테스트', () => {
     });
 
     test.each(['1/2/3/4/5/6', '1 2 3 4 5 6'])(
-      '당첨 로또 번호는 쉼표(,)로 구분되어 있지 않으면 오류가 발생한다.\n [Test Case] : %s',
+      '당첨 로또 번호는 쉼표(,)로 구분되어 있지 않으면 오류가 발생한다.\n [Test Case] : %s\n',
       (input) => {
         expect(() => new WinningLotto(input)).toThrow(
           ERROR_MESSAGES.inValidWInningNumbersForm,

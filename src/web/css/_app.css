@@ -1,31 +1,31 @@
 #app {
-  position: relative;
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: flex-start;
-  width: 100vw;
-  height: 100vh;
-  max-width: 1440px;
-  min-height: 1024px;
-  margin: auto;
-  font-family: var(--lotto-fontFamily);
-  font-size: var(--lotto-bodyAndPlaceholder-fontSize);
-  font-weight: var(--lotto-bodyAndPlaceholder-fontWeight);
-  line-height: var(--lotto-bodyAndPlaceholder-lineHeight);
-  color: var(--lotto-greyScale5-color);
-  line-height: 24px;
   z-index: 0;
+  margin: auto;
+  width: 100vw;
+  max-width: 1440px;
+  height: 100vh;
+  min-height: 1024px;
+  color: var(--lotto-greyScale5-color);
+  font-weight: var(--lotto-bodyAndPlaceholder-fontWeight);
+  font-size: var(--lotto-bodyAndPlaceholder-fontSize);
+  line-height: var(--lotto-bodyAndPlaceholder-lineHeight);
+  line-height: 24px;
+  font-family: var(--lotto-fontFamily);
 }
 
 #app > .inner {
-  position: relative;
-  width: inherit;
-  height: inherit;
-  min-height: inherit;
-  max-width: inherit;
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: flex-start;
+  width: inherit;
+  max-width: inherit;
+  height: inherit;
+  min-height: inherit;
 }
 
 #app > .inner > header {
@@ -36,27 +36,27 @@
 
   h1 {
     margin-left: 130px;
-    font-size: var(--lotto-title-fontSize);
-    font-weight: var(--lotto-title-fontWeight);
-    line-height: var(--lotto-title-lineHeight);
     color: var(--lotto-greyScale1-color);
+    font-weight: var(--lotto-title-fontWeight);
+    font-size: var(--lotto-title-fontSize);
+    line-height: var(--lotto-title-lineHeight);
   }
 }
 #app footer {
-  line-height: 80px;
-  height: 80px;
   margin-top: auto;
   border-top: 1px solid rgba(var(--lotto-primary-color-rgb), 0.2);
-  text-align: center;
+  height: 80px;
   color: var(--lotto-primary-color);
-  font-size: var(--lotto-caption-fontSize);
   font-weight: var(--lotto-caption-fontWeight);
+  font-size: var(--lotto-caption-fontSize);
+  line-height: 80px;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   #app {
-    overflow-x: hidden;
     min-height: 100vh;
+    overflow-x: hidden;
   }
 
   #app > .inner > header {

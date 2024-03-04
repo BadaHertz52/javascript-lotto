@@ -16,17 +16,17 @@
   position: absolute;
   top: calc(17px + 7px);
   right: 0;
-  background-color: var(--lotto-greyScale1-color);
-  max-width: 600px;
-  min-width: 300px;
-  border-radius: 10px;
-  font-size: 12px;
-  padding: 5px;
   box-sizing: border-box;
+  border-radius: 10px;
+  background-color: var(--lotto-greyScale1-color);
+  padding: 5px;
+  min-width: 300px;
+  max-width: 600px;
+  font-size: 12px;
 
   li {
-    list-style: circle;
     margin-left: 16px;
+    list-style: circle;
   }
 }
 
