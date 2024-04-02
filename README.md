@@ -17,6 +17,8 @@ npm run build-step2
 ```dash
 npm run test
 ```
+### 프로젝트 후기 블로그 
+[🌟바로가기](https://velog.io/@badahertz52/%EC%9A%B0%ED%85%8C%EC%BD%94-FE-%EB%A0%88%EB%B2%A81-%EB%A1%9C%EB%98%90-%EA%B2%8C%EC%9E%84%EC%9D%84-%EB%81%9D%EB%82%B4%EA%B3%A0)
 
 ### 1단계 - 콘솔 기반 로또 게임 실행
 
